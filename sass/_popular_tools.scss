@@ -1,0 +1,116 @@
+.popular-tools-wrapper{
+  padding-top: 200px;
+}
+.popular-tools__title{
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.popular-tools__description{
+  color: rgb(255, 255, 255, 0.5);
+  width: 420px;
+  margin: 25px auto 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.popular-tools__list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1224px;
+  margin-top: 90px;
+
+}
+.popular-tools__item{
+  margin-right: 15px;
+  width: 375px;
+  height: 295px;
+  margin-bottom: 100px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.popular-tools__figure{
+  display: flex;
+}
+.popular-tools__image{
+  margin-right: 30px;
+}
+.popular-tools__name{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.popular-tools__badge{
+  color: rgba(255, 165, 55, 0.55);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.popular-tools__summary{
+  margin-top: 30px;
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.popular-tools__actions{
+  display: flex;
+  margin-top: 30px;
+}
+.popular-tools__button{
+  margin-right: 12px;
+}
+.popular-tools__button-like,
+.popular-tools__button-folder{
+  display: flex;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+}
+.popular-tools__button--visit{
+  width: 105px;
+  height: 42px;
+  color: rgb(255, 255, 255, 0.5);
+  margin-left: auto;
+  border: solid 2px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.popular-tools__load-more{
+  width: 185px;
+  height: 65px;
+  color: rgba(255, 110, 48);
+  border: 2px solid rgb(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
